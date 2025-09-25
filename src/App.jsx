@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -25,11 +25,53 @@ const ScrollToTop = () => {
   return null;
 };
 
+const getInitialTheme = () => {
+  if (typeof window === 'undefined') {
+    return 'dark';
+  }
+
+  let preferred = 'dark';
+
+  try {
+    const stored = window.localStorage.getItem('theme');
+    if (stored === 'light' || stored === 'dark') {
+      preferred = stored;
+    } else if (typeof window.matchMedia === 'function') {
+      preferred = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    }
+  } catch (error) {
+    if (typeof window.matchMedia === 'function') {
+      preferred = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    }
+  }
+
+  if (typeof document !== 'undefined') {
+    document.body.dataset.theme = preferred;
+  }
+
+  return preferred;
+};
+
 const App = () => {
+  const [theme, setTheme] = useState(getInitialTheme);
+
+  useEffect(() => {
+    document.body.dataset.theme = theme;
+    try {
+      window.localStorage.setItem('theme', theme);
+    } catch (error) {
+      // ignore write errors
+    }
+  }, [theme]);
+
+  const handleToggleTheme = () => {
+    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+  };
+
   return (
     <div className="app">
       <ScrollToTop />
-      <Header messengerUrl={messengerLink} />
+      <Header messengerUrl={messengerLink} theme={theme} onToggleTheme={handleToggleTheme} />
       <main>
         <Routes>
           <Route path="/" element={<Home properties={propertiesData.slice(0, 3)} messengerUrl={messengerLink} />} />
