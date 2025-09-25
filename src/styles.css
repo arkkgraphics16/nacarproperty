@@ -5,8 +5,8 @@
   --color-surface: #171717;
   --color-surface-muted: rgba(23, 23, 23, 0.85);
   --color-text: #ececec;
-  --color-muted: #a0a0a0;
-  --color-accent: #c5a572;
+  --color-muted: #d4d4d8;
+  --color-accent: #b88a3b;
   --color-accent-2: #f7f6f3;
   --color-border: rgba(255, 255, 255, 0.08);
   --color-border-soft: rgba(255, 255, 255, 0.05);
@@ -38,8 +38,8 @@ body[data-theme='light'] {
   --color-surface: #ffffff;
   --color-surface-muted: #f2f1ee;
   --color-text: #1c1c1e;
-  --color-muted: #6b6f76;
-  --color-accent: #c5a572;
+  --color-muted: #3f3f45;
+  --color-accent: #b88a3b;
   --color-accent-2: #2c2a29;
   --color-border: #e5e7eb;
   --color-border-soft: rgba(229, 231, 235, 0.7);
@@ -268,6 +268,7 @@ header {
   border: none;
   padding: 0;
   justify-content: center;
+  color: var(--color-btn-text);
 }
 
 .mobile-nav .btn {
