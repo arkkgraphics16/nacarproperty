@@ -141,7 +141,7 @@ const AdminContent = ({ initialProperties }) => {
   const exportData = JSON.stringify(properties, null, 2);
 
   return (
-    <section className="container" style={{ padding: '4rem 0' }}>
+    <section className="container" style={{ paddingBlock: '4rem' }}>
       <h1 className="section-title">Admin: Manage Listings</h1>
       <div className="admin-grid">
         <div className="admin-panel">

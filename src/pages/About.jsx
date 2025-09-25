@@ -12,7 +12,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="container rich-text" style={{ padding: '4rem 0' }}>
+    <section className="container rich-text" style={{ paddingBlock: '4rem' }}>
       <h1 className="section-title">Our Family Legacy</h1>
       <p>
         Nacar Family Realty was born from decades of stewardship across Aklan&apos;s most promising parcels. What began as a

@@ -12,7 +12,7 @@ const Privacy = () => {
   }, []);
 
   return (
-    <section className="container rich-text" style={{ padding: '4rem 0' }}>
+    <section className="container rich-text" style={{ paddingBlock: '4rem' }}>
       <h1 className="section-title">Privacy Policy</h1>
       <p>Last updated: January 1, 2025</p>
       <p>
