@@ -1,0 +1,126 @@
+[
+  {
+    "id": "lot-001",
+    "slug": "kalibo-riverside-200sqm",
+    "status": "for-sale",
+    "title": "Riverside 200 sqm Lot in Kalibo",
+    "price": 1450000,
+    "currency": "PHP",
+    "address": {
+      "city": "Kalibo",
+      "province": "Aklan",
+      "country": "Philippines"
+    },
+    "lotSqm": 200,
+    "zoning": "Residential",
+    "frontage": "10 m",
+    "roadAccess": "Concrete barangay road",
+    "utilities": ["Electric nearby", "Water nearby"],
+    "nearby": ["Market 5 min", "School 8 min", "Town center 10 min"],
+    "images": [
+      "https://placehold.co/1600x1067/png?text=Kalibo+Lot+1",
+      "https://placehold.co/1600x1067/png?text=Kalibo+Lot+1B",
+      "https://placehold.co/1600x1067/png?text=Kalibo+Lot+1C"
+    ],
+    "description": "Flat, build-ready lot near the riverside with easy access to utilities and barangay road.",
+    "badges": ["Clean Title", "Prime Location", "Build-Ready"],
+    "seo": {
+      "title": "200 sqm Lot Kalibo | For Sale",
+      "description": "Flat 200sqm lot near riverside, with nearby utilities."
+    },
+    "publishedAt": "2025-09-20"
+  },
+  {
+    "id": "lot-002",
+    "slug": "numancia-highland-450sqm",
+    "status": "for-sale",
+    "title": "Highland 450 sqm Retreat Lot in Numancia",
+    "price": 2950000,
+    "currency": "PHP",
+    "address": {
+      "city": "Numancia",
+      "province": "Aklan",
+      "country": "Philippines"
+    },
+    "lotSqm": 450,
+    "zoning": "Residential",
+    "frontage": "18 m",
+    "roadAccess": "Asphalt municipal road",
+    "utilities": ["Electric lines ready", "Deep well option"],
+    "nearby": ["Beach 15 min", "Hospital 12 min", "Airport 20 min"],
+    "images": [
+      "https://placehold.co/1600x1067/png?text=Numancia+Lot+1",
+      "https://placehold.co/1600x1067/png?text=Numancia+Lot+2",
+      "https://placehold.co/1600x1067/png?text=Numancia+Lot+3"
+    ],
+    "description": "Elevated terrain with panoramic views of Aklan river valley. Perfect for a private villa compound.",
+    "badges": ["Ridge View", "Secure Community"],
+    "seo": {
+      "title": "Numancia Highland Lot for Sale",
+      "description": "Panoramic 450 sqm ridge lot in Numancia ideal for a luxury residence."
+    },
+    "publishedAt": "2025-08-05"
+  },
+  {
+    "id": "lot-003",
+    "slug": "new-washington-bayside-320sqm",
+    "status": "reserved",
+    "title": "Bayside 320 sqm Parcel in New Washington",
+    "price": 2150000,
+    "currency": "PHP",
+    "address": {
+      "city": "New Washington",
+      "province": "Aklan",
+      "country": "Philippines"
+    },
+    "lotSqm": 320,
+    "zoning": "Mixed-Use",
+    "frontage": "12 m",
+    "roadAccess": "Paved barangay road",
+    "utilities": ["Power ready", "Water ready", "Fiber broadband nearby"],
+    "nearby": ["Marina 4 min", "Market 7 min", "Kalibo Airport 25 min"],
+    "images": [
+      "https://placehold.co/1600x1067/png?text=New+Washington+Lot+1",
+      "https://placehold.co/1600x1067/png?text=New+Washington+Lot+2",
+      "https://placehold.co/1600x1067/png?text=New+Washington+Lot+3"
+    ],
+    "description": "Steps from the baywalk, this parcel is ideal for a weekend home with boat access and sunset views.",
+    "badges": ["Waterfront Access", "Sunset Views"],
+    "seo": {
+      "title": "New Washington Bayside Lot",
+      "description": "320 sqm bayside parcel in New Washington with marina proximity and utilities."
+    },
+    "publishedAt": "2025-07-18"
+  },
+  {
+    "id": "lot-004",
+    "slug": "makato-organic-600sqm",
+    "status": "sold",
+    "title": "Organic Estate 600 sqm Lot in Makato",
+    "price": 1850000,
+    "currency": "PHP",
+    "address": {
+      "city": "Makato",
+      "province": "Aklan",
+      "country": "Philippines"
+    },
+    "lotSqm": 600,
+    "zoning": "Agricultural",
+    "frontage": "20 m",
+    "roadAccess": "Farm-to-market road",
+    "utilities": ["Irrigation canal", "Power nearby"],
+    "nearby": ["Eco-park 6 min", "Town proper 9 min", "Highway 12 min"],
+    "images": [
+      "https://placehold.co/1600x1067/png?text=Makato+Lot+1",
+      "https://placehold.co/1600x1067/png?text=Makato+Lot+2",
+      "https://placehold.co/1600x1067/png?text=Makato+Lot+3"
+    ],
+    "description": "Fertile soil ideal for boutique organic farming with nearby eco-tourism attractions.",
+    "badges": ["Sold", "Organic Potential"],
+    "seo": {
+      "title": "Makato 600 sqm Farm Lot",
+      "description": "600 sqm farm-ready lot in Makato, Aklan with irrigation access."
+    },
+    "publishedAt": "2025-06-01"
+  }
+]
