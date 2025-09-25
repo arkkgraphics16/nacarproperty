@@ -12,7 +12,7 @@ const Contact = ({ messengerUrl }) => {
   }, []);
 
   return (
-    <section className="container" style={{ padding: '4rem 0' }}>
+    <section className="container" style={{ paddingBlock: '4rem' }}>
       <h1 className="section-title">Speak With Our Family Agent</h1>
       <div className="contact-card">
         <p>

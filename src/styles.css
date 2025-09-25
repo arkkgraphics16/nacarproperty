@@ -178,6 +178,8 @@ header {
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 0.35rem;
   padding: 0;
   transition: background 0.2s ease, border-color 0.2s ease;
 }
@@ -188,12 +190,12 @@ header {
   height: 2px;
   background: var(--color-text);
   border-radius: 999px;
-  margin: 2px 0;
+  margin: 0;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .menu-toggle[aria-expanded='true'] span:nth-of-type(1) {
-  transform: translateY(4px) rotate(45deg);
+  transform: translateY(6px) rotate(45deg);
 }
 
 .menu-toggle[aria-expanded='true'] span:nth-of-type(2) {
@@ -201,7 +203,7 @@ header {
 }
 
 .menu-toggle[aria-expanded='true'] span:nth-of-type(3) {
-  transform: translateY(-4px) rotate(-45deg);
+  transform: translateY(-6px) rotate(-45deg);
 }
 
 .menu-toggle:hover,
